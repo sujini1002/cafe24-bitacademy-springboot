@@ -29,6 +29,12 @@ public class GuestBookController {
 		return "guestbook/list";
 	}
 	
+	@RequestMapping(value="/timeline")
+	public String timeline(Model model) {
+		model.addAttribute("list", guestBookService.getlist());
+		return "guestbook/index-timeline";
+	}
+	
 	@RequestMapping("/add")
 	public String add(@ModelAttribute GuestBookVo guestbookvo) {
 		guestBookService.add(guestbookvo);
