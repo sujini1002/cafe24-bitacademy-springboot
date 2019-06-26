@@ -92,7 +92,7 @@
 	padding:10px;
 	position: relative;
 	background:url('/assets/images/user.png') 0 30px no-repeat;
-	background-size: 50px;
+	background-size: 40px;
 	
 }
 
@@ -122,7 +122,7 @@
 	height:50px;position:absolute;
 	top:30px;
 	left:0px; 
-	background:url('/assets/images/delete.png') 26px 25px no-repeat;
+	background:url('/assets/images/delete.png') 22px 22px no-repeat;
 	background-size:25px;
 	font-size:0;
 }
